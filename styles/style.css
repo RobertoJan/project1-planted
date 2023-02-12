@@ -233,7 +233,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #f0efed;
 }
 
 img {
@@ -331,12 +331,76 @@ header {
   bottom: -50px;
 }
 
-body {
-  background-color: #f0efed;
+.findMore, .readMore {
+  border-style: none;
+  padding: 10px 15px;
+  background-color: #0e902d;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 32px;
+  letter-spacing: 1px;
 }
 
 .aboutContainer {
   padding: 150px;
+}
+
+.about {
+  text-align: center;
+}
+.about h2 {
+  font-size: 2.8rem;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.postFlex {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.postOne, .postTwo {
+  -ms-flex-preferred-size: 42%;
+      flex-basis: 42%;
+}
+
+.postOneContainerText, .postTwoContainerText {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.postOneContainerText h3, .postTwoContainerText h3 {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.postOneContainerText {
+  padding-left: 50px;
+  text-align: end;
+}
+
+.postTwoContainerText {
+  padding-right: 50px;
+}
+
+.postOneContainerImg {
+  -webkit-box-shadow: 15px 15px 0 0 #f8e71c;
+          box-shadow: 15px 15px 0 0 #f8e71c;
+  position: relative;
+  top: -20px;
+}
+
+.postTwoContainerImg {
+  -webkit-box-shadow: -15px 15px 0 0 #f8e71c;
+          box-shadow: -15px 15px 0 0 #f8e71c;
+  position: relative;
+  bottom: -20px;
 }
 
 nav {
