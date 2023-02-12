@@ -1,0 +1,52 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+header {
+    background-image: url('../../../assets/home-image-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $primaryWhite;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.headerFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+
+
+    h1 {
+        z-index: 10;
+        font-size: 166px;
+        font-weight: 400;
+        line-height: 130px;
+
+        
+        span {
+            display: block;
+            color: $primaryYellow;
+            
+        }
+    }
+}
+
+.headerImg {
+    position: absolute;
+    align-self: flex-end;
+    bottom: -50px;
+    
+
+
+
+}

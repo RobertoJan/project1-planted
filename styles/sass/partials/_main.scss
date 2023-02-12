@@ -1,0 +1,13 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+body {
+    background-color: $secondaryWhite;
+}
+
+// ABOUT STYLES
+
+.aboutContainer {
+    padding: 150px;
+
+}
