@@ -1,7 +1,7 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-header {
+.homeHeader {
     background-image: url('../../../assets/home-image-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ header {
     flex-direction: column;
 }
 
-.headerContent {
+.homeHeaderContent {
     height: 100%;
     display: flex;
     flex-direction: column;

@@ -112,13 +112,16 @@
 }
 
 .founderContainerImg {
-    box-shadow: 15px 15px 0 0 $primaryYellow;
-    position: relative;
+
+    img {
+        box-shadow: 15px 15px 0 0 $primaryYellow;
+    }
 }
 
 .founderContainerText {
     width: 85%;
     padding-left: 120px;
+
 
     h3 {
         font-size: 2.1rem;
@@ -152,6 +155,11 @@
         display: flex;
         justify-content: center;
         color: $primaryWhite;
+
+        p {
+            margin: 0;
+            padding: 8px;
+        }
     }
 }
 
