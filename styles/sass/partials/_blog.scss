@@ -1,0 +1,125 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+// CONTACT HEADER STYLE
+
+.blogFont {
+    color: $primaryYellow;
+}
+
+.blogHeader {
+    color: $primaryWhite;
+}
+
+.blogNav {
+    background-color: #000;
+}
+
+.navFlex {
+    display: flex;
+}
+
+.blogHeaderContent {
+    background-image: url('../../../assets/blog-header-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: $primaryWhite;
+
+    .blogHeaderContentFlex {
+        display: flex;
+        align-items: end;
+        height: 100%;
+    }
+
+    h2 {
+        font-size: 4rem;
+        line-height: 4.6rem;
+        color: $primaryYellow;
+        margin-bottom: 100px;
+    }
+}
+
+// BLOG CONTENT
+
+.blogContentFlexParent {
+    display: flex;
+}
+
+// SIDE INFO STYLES
+
+.sideInfoContainer {
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-right: 40px;
+}
+
+
+
+// COMMENT FORM STYLES
+
+
+.commentForm {
+    background-color: $primaryWhite;
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 100%;
+    
+    .inputContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    
+    }
+
+    input[type=text], input[type=email] {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: $primaryGreen;
+        padding: 20px;
+        width: 48%;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+        border-color: $primaryGreen;
+        padding: 20px;
+        padding-top: 30px;
+        resize: none;
+    }
+
+    button {
+        border-style: none;
+        padding: 10px 15px;
+        background-color: $primaryGreen;
+        color: $primaryWhite;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 32px;
+        letter-spacing: 1px;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+// CONTACT FOOTER STYLES
+
+.blogFooter {
+    background-color: $primaryBlack;
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        color: $primaryWhite;
+
+        p {
+            margin: 0;
+            padding: 8px;
+        }
+    }
+}
+

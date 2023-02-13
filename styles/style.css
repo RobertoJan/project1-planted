@@ -519,6 +519,122 @@ nav a:hover, nav a:focus {
   color: #f8e71c;
 }
 
+.blogFont {
+  color: #f8e71c;
+}
+
+.blogHeader {
+  color: #fff;
+}
+
+.blogNav {
+  background-color: #000;
+}
+
+.navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogHeaderContent {
+  background-image: url("../../../assets/blog-header-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  color: #fff;
+}
+.blogHeaderContent .blogHeaderContentFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  height: 100%;
+}
+.blogHeaderContent h2 {
+  font-size: 4rem;
+  line-height: 4.6rem;
+  color: #f8e71c;
+  margin-bottom: 100px;
+}
+
+.blogContentFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sideInfoContainer {
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-right: 40px;
+}
+
+.commentForm {
+  background-color: #fff;
+  padding: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  width: 100%;
+}
+.commentForm .inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+.commentForm input[type=text], .commentForm input[type=email] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #0e902d;
+  padding: 20px;
+  width: 48%;
+}
+.commentForm textarea {
+  display: block;
+  width: 100%;
+  border-color: #0e902d;
+  padding: 20px;
+  padding-top: 30px;
+  resize: none;
+}
+.commentForm button {
+  border-style: none;
+  padding: 10px 15px;
+  background-color: #0e902d;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 32px;
+  letter-spacing: 1px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.blogFooter {
+  background-color: #2c2c2c;
+}
+.blogFooter .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+.blogFooter .wrapper p {
+  margin: 0;
+  padding: 8px;
+}
+
 .contactHeader {
   background-image: url("../../../assets/contact-header-1.jpg");
   background-size: cover;
@@ -606,7 +722,7 @@ nav a:hover, nav a:focus {
   -webkit-box-shadow: -20px 20px 0 0 #f8e71c;
           box-shadow: -20px 20px 0 0 #f8e71c;
   position: absolute;
-  right: -50px;
+  right: -40px;
   top: -200px;
 }
 .userFormContainer .inputContainer {
@@ -616,7 +732,7 @@ nav a:hover, nav a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .userFormContainer input[type=text], .userFormContainer input[type=email] {
   border-top: none;
@@ -632,6 +748,7 @@ nav a:hover, nav a:focus {
   border-color: #0e902d;
   padding: 20px;
   padding-top: 30px;
+  resize: none;
 }
 .userFormContainer button {
   border-style: none;
@@ -642,7 +759,7 @@ nav a:hover, nav a:focus {
   line-height: 32px;
   letter-spacing: 1px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .contactFooter {
