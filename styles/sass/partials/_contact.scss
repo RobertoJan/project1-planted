@@ -1,0 +1,142 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+// CONTACT HEADER STYLE
+
+.contactHeader {
+    background-image: url('../../../assets/contact-header-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: $primaryWhite;
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4.6rem;
+        color: $primaryYellow;
+
+        span {
+            display: block;
+        }
+    }
+}
+
+.contactHeaderFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.contactFont {
+    color: $primaryYellow;
+}
+
+// CONTACT INFO STYLE
+
+.contactUs {
+    padding: 150px 0;
+    display: flex;
+    position: relative;
+
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactSocialMedia {
+    display: flex;
+}
+
+.socialMediaIconContainer {
+    margin-right: 20px;
+
+    i{
+        color: $primaryGreen;
+    }
+}
+
+.contactEmail {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactDetail {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+// FORM STYLE
+
+.userFormContainer {
+    background-color: $primaryWhite;
+    padding: 50px;
+    width: 70%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    box-shadow: -20px 20px 0 0 $primaryYellow;
+    position: absolute;
+    right: -40px;
+    top: -200px;
+    
+    .inputContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    input[type=text], input[type=email] {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: $primaryGreen;
+        padding: 20px;
+        width: 48%;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+        border-color: $primaryGreen;
+        padding: 20px;
+        padding-top: 30px;
+        resize: none;
+    }
+
+    button {
+        border-style: none;
+        padding: 10px 15px;
+        background-color: $primaryGreen;
+        color: $primaryWhite;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 32px;
+        letter-spacing: 1px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
+
+// CONTACT FOOTER STLYE
+
+.contactFooter {
+    background-color: $primaryBlack;
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        color: $primaryWhite;
+
+        p {
+            margin: 0;
+            padding: 8px;
+        }
+    }
+}

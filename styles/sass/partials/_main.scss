@@ -1,0 +1,165 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+
+// BUTTON STYLE
+
+.findMore, .readMore {
+    border-style: none;
+    padding: 10px 15px;
+    background-color: $primaryGreen;
+    color: $primaryWhite;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+// ABOUT STYLES
+
+.aboutContainer {
+    padding: 150px;
+}
+
+.about {
+    text-align: center;
+
+    h2 {
+        @include headingStyle(2.8rem, 1.3px)
+    }
+}
+
+// POST STYLES
+
+.postFlex {
+    background-color: $primaryWhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postOne, .postTwo {
+    flex-basis: 42%;
+}
+
+.postOneContainerText, .postTwoContainerText {
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    h3 {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+}
+
+.postOneContainerText {
+    padding-left: 50px;
+    text-align: end;
+}
+
+.postTwoContainerText {
+    padding-right: 50px;
+}
+
+.postOneContainerImg {
+    box-shadow: 15px 15px 0 0 $primaryYellow;
+    position: relative;
+    top: -20px;
+}
+
+.postTwoContainerImg {
+    box-shadow: -15px 15px 0 0 $primaryYellow;
+    position: relative;
+    bottom: -20px;
+}
+
+// LINKS STYLES 
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.linksCard {
+    flex-basis: 50%;
+    display: flex;
+    padding-bottom: 30px;
+}
+.linksIconContainer {
+    i {
+        background-color: $primaryYellow;
+        padding: 8px;
+        border-radius: 25px;
+    }
+}
+
+.linksCardText {
+    margin-left: 15px;
+    h4 {
+        padding-top: 8px;
+        font-weight: 700;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+}
+
+// Founder Styles 
+
+.founder {
+    display: flex;
+    padding: 100px 0;
+}
+
+.founderContainerImg {
+
+    img {
+        box-shadow: 15px 15px 0 0 $primaryYellow;
+    }
+}
+
+.founderContainerText {
+    width: 85%;
+    padding-left: 120px;
+
+
+    h3 {
+        font-size: 2.1rem;
+        letter-spacing: 1px;
+    }
+}
+
+// GALLERY STYLES
+
+.gallery {
+    background-color: $primaryWhite;
+
+    .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    }   
+
+}
+
+.galleryContainerImg {
+    flex-basis: 31%;
+}
+
+// HOME FOOTER STYLE
+
+.homeFooter {
+    background-color: $primaryBlack;
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        color: $primaryWhite;
+
+        p {
+            margin: 0;
+            padding: 8px;
+        }
+    }
+}
+

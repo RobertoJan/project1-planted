@@ -1,0 +1,6 @@
+@mixin headingStyle($fontSize, $letterSpacing) {
+    font-size: $fontSize;
+    letter-spacing: $letterSpacing;
+    font-weight: 700;
+    color: #2c2c2c;
+}
