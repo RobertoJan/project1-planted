@@ -798,6 +798,12 @@ nav a:hover, nav a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contactSocialMedia {
@@ -889,4 +895,177 @@ nav a:hover, nav a:focus {
 .contactFooter .wrapper p {
   margin: 0;
   padding: 8px;
+}
+
+@media (max-width: 1000px) {
+  .contactUs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 0;
+  }
+  .contactInfo {
+    padding-bottom: 50px;
+  }
+  .userFormContainer {
+    position: static;
+    width: 100%;
+  }
+  .blogHeaderContentFlex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blogHeaderContentFlex h2 {
+    font-size: 3rem;
+  }
+  .blogContentFlexParent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sideInfoImageContainer {
+    position: static;
+  }
+  .sideInfoTextContainer {
+    padding: 50px;
+    position: static;
+    margin-top: 20px;
+  }
+  .sideInfoContainer {
+    width: 60%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blogInfoContainer {
+    position: static;
+    width: 80%;
+  }
+  .blogPostTextContainer {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav ul {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav li {
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  .homeHeaderContent h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .aboutContainer {
+    padding: 80px 15px 50px 15px;
+  }
+  .postFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .postOneContainerText, .postTwoContainerText {
+    padding: 20px 40px;
+  }
+  .founder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .founderContainerText {
+    padding: 30px;
+  }
+  .contactHeaderFlex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactHeaderFlex h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .inputContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inputContainer input[type=text], .inputContainer input[type=email] {
+    width: 100%;
+  }
+  .navFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 560px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav li {
+    margin: 15px;
+  }
+  .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sideInfoContainer {
+    width: 80%;
+  }
+  .blogInfoContainer {
+    width: 90%;
+  }
 }

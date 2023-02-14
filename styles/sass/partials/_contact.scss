@@ -39,11 +39,14 @@
     padding: 150px 0;
     display: flex;
     position: relative;
+
 }
 
 .contactInfo {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contactSocialMedia {
@@ -87,7 +90,6 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
-    
     }
 
     input[type=text], input[type=email] {
@@ -119,7 +121,6 @@
         width: 100%;
         margin-top: 40px;
     }
-
 
 }
 
