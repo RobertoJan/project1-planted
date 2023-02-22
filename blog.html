@@ -84,22 +84,25 @@
                     <!-- COMMENTS   -->
                     <section class="comments">
                         <h3>Comments:</h3>
-                        <div class="commentsCard">
-                            <div class="commentsProfilePicture">
-                                <img src="./assets/profile-image.jpg" alt="the face of Jeremy, a young man with a piercing">
+
+                        <div class="commentCardContainer">
+                            <div class="commentsCard">
+                                <div class="commentsProfilePicture">
+                                    <img src="./assets/profile-image.jpg" alt="the face of Jeremy, a young man with a piercing">
+                                </div>
+                                <div class="commentsText">
+                                    <h4>Tuesday October 9th, 2018 by Jeremy</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur minus quis ea unde itaque dolorum nostrum corporis, esse et!</p>
+                                </div>
                             </div>
-                            <div class="commentsText">
-                                <h4>Tuesday October 9th, 2018 by Jeremy</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur minus quis ea unde itaque dolorum nostrum corporis, esse et!</p>
-                            </div>
-                        </div>
-                        <div class="commentsCard">
-                            <div class="commentsProfilePicture">
-                                <img src="./assets/profile-image-2.jpg" alt="the face of Julia, a young lady with a harry potter hat ">
-                            </div>
-                            <div class="commentsText">
-                                <h4>Wednesday October 10th, 2018 by Julia</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur minus quis ea unde itaque dolorum nostrum corporis, esse et!</p>
+                            <div class="commentsCard">
+                                <div class="commentsProfilePicture">
+                                    <img src="./assets/profile-image-2.jpg" alt="the face of Julia, a young lady with a harry potter hat ">
+                                </div>
+                                <div class="commentsText">
+                                    <h4>Wednesday October 10th, 2018 by Julia</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur minus quis ea unde itaque dolorum nostrum corporis, esse et!</p>
+                                </div>
                             </div>
                         </div>
                         <div class="commentFormContainer">
@@ -110,9 +113,8 @@
                                     <label class="sr-only" for="userEmail">Enter your Email</label>
                                     <input type="email" name="userEmail" id="userEmail" placeholder="Email address">
                                 </div>
-                                <textarea placeholder="Comment" name="enterMessage" id="" cols="30" rows="8">
-                                </textarea>
-                                <button>Post Comment</button>
+                                <textarea placeholder="Comment" name="enterMessage" id="comment" cols="30" rows="8"></textarea>
+                                <button type="submit">Post Comment</button>
                             </form>
                         </div>
                     </section>
@@ -125,5 +127,8 @@
             <p>Copyight © 2018 HackerYou</p>
         </div>
     </footer>
+    <script src="./script.js">
+
+    </script>
 </body>
 </html>
